@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('myriadpro-cond_0.eot');
+    src: url('myriadpro-cond_0.eot') format('embedded-opentype'),
+         url('myriadpro-cond_0.woff2') format('woff2'),
+         url('myriadpro-cond_0.woff') format('woff'),
+         url('myriadpro-cond_0.ttf') format('truetype'),
+         url('myriadpro-cond_0.svg#MyriadProCondensed') format('svg');
+}
