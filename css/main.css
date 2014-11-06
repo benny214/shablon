@@ -147,7 +147,7 @@ article img {
 .leftcol h1 {
     font-family: 'MyriadProBoldCondensed';
     font-size: 36px;
-    color:#000;
+    color: #000;
     margin: 0 0 26px 0;
 }
 .leftcol p {
@@ -253,3 +253,127 @@ ul {
     margin: 0;
     padding: 0;
 }
+/* Адаптив 1024px */
+
+@media screen and (max-width: 1024px) {
+    .header{
+        margin-bottom: 0;
+    }
+    .wrapper,
+    .article-wrap,
+    .features, footer {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header__logo {
+        float: left;
+        width: 150px;
+        margin-left: 60px;
+        margin-right: 100px;
+    }
+    .header__input {
+        float: left;
+        width: 150px;
+        margin-top: 5px;
+    }
+.bx-wrapper{
+    display: none;
+}
+    .slider-wrap {
+        float: none;
+        margin: 0 auto
+    }
+    .slider__feature {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: right;
+    }
+    .slider__feature p, .slider__feature h2 {
+        text-align: left;
+    }
+    .slider__feature p:last-of-type{
+        margin-bottom: 14px;
+    }
+    .slider__feature a {
+        padding: 0;
+    }
+    .features li {
+        display: inline-block;
+        width: 30%;
+        margin-right: 25px;
+    }
+    .features img {
+        margin-top: 10px;
+        margin-right: 20px;
+        float: left;
+    }
+    .features h3,
+    .features p {
+        margin-bottom: 0;
+    }
+    article img{
+        height: 345px;
+    }
+    .leftcol {
+        width: 446px;
+        text-align: right;
+    }
+    .leftcol p, .leftcol h1{
+        text-align: left;
+    }
+    .footer__about, .footer__twitter, .footer__post, .footer__flickr{
+        width: 20%;
+        margin-left: 11px;
+    }
+}
+
+/* 960px */
+
+@media screen and (max-width: 960px) {
+    .features li{
+        display: block;
+        width: 100%;
+        margin-bottom: 74px;
+    }
+    .features img{
+        float: left;
+    }
+    .features h3{ 
+        padding-top: 10px
+    }
+    .leftcol{
+        float: none;
+        width: 100%;
+        margin:0 auto;
+    }
+    .leftcol p:first-of-type, .leftcol p:last-of-type{
+        float: none;width: 100%;
+    }
+    .leftcol h1{
+        text-align: center;
+    }
+    article img {
+        display: none;
+    }
+    .wrapper-footer{
+        margin-top: 32px; 
+    }
+.footer__about, .footer__twitter, .footer__post{
+        width: 20%;
+        margin-left: 15px;
+    }
+    .footer__flickr li {
+margin-right: 6px;
+}
+    /*.footer__flickr{
+        width: 70%;
+        float: none;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .footer__flickr h4{
+        text-align: left;
+    }*/
+}
+/* 320px */
