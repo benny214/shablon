@@ -147,6 +147,7 @@ article img {
 .leftcol h1 {
     font-family: 'MyriadProBoldCondensed';
     font-size: 36px;
+    color:#000;
     margin: 0 0 26px 0;
 }
 .leftcol p {
