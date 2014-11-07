@@ -166,11 +166,13 @@ article img {
     float: right;
     margin-bottom: 47px
 }
-.leftcol__left{
-    float: left\0/; /* IE8 only */
+.leftcol__left {
+    float: left\0/;
+    /* IE8 only */
 }
-.leftcol__right{
-    float: right\0/; /* IE8 only */
+.leftcol__right {
+    float: right\0/;
+    /* IE8 only */
 }
 .wrapper-footer {
     width: 100%;
@@ -260,7 +262,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-img{
+img {
     border: none;
 }
 /* Адаптив 1024px */
