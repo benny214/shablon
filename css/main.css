@@ -253,6 +253,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+img{
+    border:none;
+}
 /* Адаптив 1024px */
 
 @media screen and (max-width: 1024px) {
